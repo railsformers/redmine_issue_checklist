@@ -1,1 +1,2 @@
-$("#checklist_item_<%= @checklist_item.id %>").toggleClass('is-done-checklist-item')
+$("#checklist_item_<%= @checklist_item.id %>").toggleClass('is-done-checklist-item');
+window.location.href = '<%= issue_path(@checklist_item.issue.id) %>';

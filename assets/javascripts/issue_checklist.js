@@ -81,5 +81,5 @@ function observeIssueChecklistField(element, input, add_button) {
 }
 
 function createIssueChecklist(checkList) {
-	issueChecklist.addChecklist(checkList); 
+	issueChecklist.addChecklist(checkList);
 }
